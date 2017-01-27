@@ -197,3 +197,11 @@ footer p {
 .navbar-default .navbar-nav>li>a {
   color: #000;
 }
+
+.sam_name {
+  font-size: 20px;
+}
+
+.sam_title {
+  font-size: 16px;
+}
