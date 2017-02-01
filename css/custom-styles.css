@@ -37,7 +37,8 @@ hr {
 }
 
 .brand,
-.address-bar {
+.address-bar,
+.btn_scheduling_mobile {
     display: none;
 }
 
@@ -105,11 +106,19 @@ hr {
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 footer p {
     margin: 0;
     padding: 50px 0;
+}
+
+footer img {
+  height: 36px;
+  width: 36px;
+  margin-right: 15px;
 }
 
 @media screen and (min-width:768px) {
@@ -148,6 +157,14 @@ footer p {
         letter-spacing: 3px;
         /*color: #fff;*/
         color: #000;
+    }
+
+    .btn_scheduling {
+      display: none;
+    }
+
+    .btn_scheduling_mobile {
+      display: block;
     }
 
     .navbar {
