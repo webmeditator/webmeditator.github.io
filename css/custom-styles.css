@@ -200,6 +200,13 @@ footer img {
         table-layout: fixed;
         font-size: 1.25em;
     }
+
+    .logo {
+        height: 70px;
+        width: 170px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -221,4 +228,62 @@ footer img {
 
 .sam_title {
   font-size: 16px;
+}
+
+.footer {
+  overflow: visible;
+  position: relative;
+  text-align: center;
+  background: #3b3838;
+}
+
+.footer .connect {
+  margin: auto;
+  text-align: center;
+}
+
+.footer .logos {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  margin: 25px 0 20px 0;
+}
+
+.logos * {
+  display: inline-block;
+  margin-left: -4px;
+  vertical-align: top;
+}
+
+.logos a:not(:last-child) {
+  border-right: solid 1px #d7d7d7;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 40px;
+}
+
+.logo.facebook {
+  background-image: url('../img/fb_icon_red.png');
+}
+.logo.yelp {
+  background-image: url('../img/yelp_icon_red.png');
+}
+
+.footer .country-copyright {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 25px;
+    color: #b0b0b0;
+}
+
+.footer .country-copyright .copyright {
+    white-space: nowrap;
 }
