@@ -38,8 +38,13 @@ hr {
 
 .brand,
 .address-bar,
-.btn_scheduling_mobile {
+.btn_scheduling {
     display: none;
+}
+
+.btn_scheduling_mobile {
+  display: block;
+  margin-bottom: 30px;
 }
 
 .navbar-brand {
@@ -80,7 +85,7 @@ hr {
 
 .box {
     margin-bottom: 20px;
-    padding: 30px 15px;
+    /*padding: 30px 15px;*/
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
@@ -148,11 +153,11 @@ footer img {
     .address-bar {
         display: inherit;
         margin: 0;
-        padding: 0 0 40px;
+        padding: 0 0 20px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         text-transform: uppercase;
-        font-size: 1.25em;
+        font-size: 14px;
         font-weight: 400;
         letter-spacing: 3px;
         /*color: #fff;*/
@@ -160,11 +165,13 @@ footer img {
     }
 
     .btn_scheduling {
-      display: none;
+      display: inline-block;
+      position: absolute;
+      right: 16%;
     }
 
     .btn_scheduling_mobile {
-      display: block;
+      display: none;
     }
 
     .navbar {
@@ -183,6 +190,7 @@ footer img {
         border: none;
         background: #fff;
         background: rgba(255,255,255,0.9);
+        margin-bottom: 0;
     }
 
     .nav>li>a {
@@ -218,6 +226,34 @@ footer img {
 }
 
 /* CSS Overwrite */
+.main_page_container {
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    width: 100%;
+}
+.review_section {
+  padding: 60px 30px 60px 30px;
+}
+
+.review_section p.lead {
+  font-size: 16px;
+  font-family: "Helvetica Neue"
+}
+
+.review_section h3, h4 {
+  text-transform: none;
+  font-family: "Open Sans, Halvetica Neue"
+}
+
+.review_section .review_list {
+  margin-top: 30px;
+}
+
+.review_section .more_reviews {
+  margin-top: 50px;
+}
+
 .navbar-default .navbar-nav>li>a {
   color: #000;
 }
